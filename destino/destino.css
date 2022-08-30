@@ -1,0 +1,59 @@
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+.social-container ul li {
+  display: inline-block;
+  margin: 0 5px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.social-container ul li a {
+  display: block;
+  padding: 0 10px;
+  background: #333;
+  color: white;
+  line-height: 50px;
+  font-size: 18px;
+}
+
+/* IMAGENES*/
+/*EXTEND*/
+.col img {
+  border-radius: 10px;
+}
+
+.col a img:hover {
+  transform: scale(1.05);
+}
+
+p {
+  font-weight: bold;
+}
+
+/*MIXIN*/
+.col a img {
+  width: 270px;
+  height: 210px;
+}
+
+body {
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+  margin-bottom: 50px;
+}
+
+/* SABORES*/
+.Carta {
+  background-size: cover;
+  align-items: center;
+}
+
+/*# sourceMappingURL=destino.css.map */

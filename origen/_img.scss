@@ -1,0 +1,24 @@
+/* IMAGENES*/
+/*EXTEND*/
+.col img{
+    border-radius:10px;
+}
+.col a{
+    @extend .col;
+    img:hover{
+    transform: scale(1.05)};
+}
+
+p{
+    font-weight: bold;
+}
+
+/*MIXIN*/
+@mixin tamanio ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.col a img{
+    @include tamanio(270px,210px );
+}
